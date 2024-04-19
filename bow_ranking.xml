@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bow-ranking edition="2024-Q1">
+	<club>
+		<club-name>BSC Hohenems</club-name>
+		<archer id="a0" person-id="p0"/>
+		<archer id="a1" person-id="p1"/>
+		<archer id="a2" person-id="p2"/>
+		<archer id="a3" person-id="p3"/>
+		<archer id="a4" person-id="p4"/>
+		<archer id="a5" person-id="p5"/>
+		<trainer id="t0" person-id="p6"/>
+	</club>
+	<club>
+		<club-name>BSC Lustenau</club-name>
+		<archer id="a6" person-id="p6"/>
+		<archer id="a7" person-id="p7"/>
+		<archer id="a8" person-id="p8"/>
+		<archer id="a9" person-id="p9"/>
+		<archer id="a10" person-id="p10"/>
+		<archer id="a11" person-id="p11"/>
+		<trainer id="t1" person-id="p1"/>
+	</club>
+	<club>
+		<club-name>BSC Dornbirn</club-name>
+		<archer id="a12" person-id="p12"/>
+		<archer id="a13" person-id="p13"/>
+		<archer id="a14" person-id="p14"/>
+		<archer id="a15" person-id="p15"/>
+		<archer id="a16" person-id="p16"/>
+		<archer id="a17" person-id="p17"/>
+		<trainer id="t2" person-id="p18"/>
+	</club>
+	<club>
+		<club-name>BSC Götzis</club-name>
+		<archer id="a18" person-id="p18"/>
+		<archer id="a19" person-id="p19"/>
+		<archer id="a20" person-id="p20"/>
+		<archer id="a21" person-id="p21"/>
+		<archer id="a22" person-id="p22"/>
+		<archer id="a23" person-id="p23"/>
+		<trainer id="t3" person-id="p12"/>
+	</club>
+	
+	<person id="p0">
+		<firstname>Michelle</firstname>
+		<lastname>Bader</lastname>
+		<gender>f</gender>
+		<year-of-birth>2000</year-of-birth>
+		<age-group>U60</age-group>
+    	<statistic>
+        	<shooting-styles>Freestyle unlimited (FU)</shooting-styles>
+        	<shooting-accuracy>89%</shooting-accuracy>
+        	<total-points>990</total-points>
+    	</statistic>
+	</person>
+	<person id="p1">
+		<firstname>Wade</firstname>
+		<lastname>Wilson</lastname>
+		<gender>m</gender>
+		<year-of-birth>1976</year-of-birth>
+		<age-group>U60</age-group>
+		<statistic>
+        	<shooting-styles>Bowhunter recurve and compound (BH)</shooting-styles>
+        	<shooting-accuracy>75%</shooting-accuracy>
+        	<total-points>780</total-points>
+    	</statistic>
+	</person>
+	<person id="p2">
+		<firstname>Thor</firstname>
+		<lastname>Odinson</lastname>
+		<gender>m</gender>
+		<year-of-birth>1983</year-of-birth>
+		<age-group>U60</age-group>
+		<statistic>
+        	<shooting-styles>Bowhunter limited (BL)</shooting-styles>
+        	<shooting-accuracy>62%</shooting-accuracy>
+        	<total-points>650</total-points>
+    	</statistic>
+	</person>
+	<person id="p3">
+		<firstname>Bruce</firstname>
+		<lastname>Banner</lastname>
+		<gender>m</gender>
+		<year-of-birth>1968</year-of-birth>
+		<age-group>U60</age-group>
+		<statistic>
+        	<shooting-styles>Historical Bow (HB) and Traditional Recurve Bow (TR)</shooting-styles>
+        	<shooting-accuracy>80%</shooting-accuracy>
+        	<total-points>780</total-points>
+    	</statistic>
+	</person>
+	<person id="p4">
+		<firstname>Peter</firstname>
+		<lastname>Quill</lastname>
+		<gender>m</gender>
+		<year-of-birth>1979</year-of-birth>
+		<age-group>U60</age-group>
+		<statistic>
+        	<shooting-styles>Longbow (LB)</shooting-styles>
+        	<shooting-accuracy>57%</shooting-accuracy>
+        	<total-points>660</total-points>
+    	</statistic>
+	</person>
+	<person id="p5">
+		<firstname>Eddie</firstname>
+		<lastname>Brock</lastname>
+		<gender>m</gender>
+		<year-of-birth>1977</year-of-birth>
+		<age-group>U60</age-group>
+		<statistic>
+        	<shooting-styles>Freestyle limited recurve and compound (FS)</shooting-styles>
+        	<shooting-accuracy>83%</shooting-accuracy>
+        	<total-points>790</total-points>
+    	</statistic>
+	</person>
+	<person id="p6">
+        <firstname>Mario</firstname>
+        <lastname>Haberfellner</lastname>
+        <gender>m</gender>
+        <year-of-birth>2003</year-of-birth>
+        <age-group>U21</age-group>
+        <statistic>
+            <shooting-styles>Bowhunter recurve and compound (BH)</shooting-styles>
+            <shooting-accuracy>85%</shooting-accuracy>
+            <total-points>820</total-points>
+        </statistic>
+    </person>
+    <person id="p7">
+        <firstname>Mendrit</firstname>
+        <lastname>Hoti</lastname>
+        <gender>m</gender>
+        <year-of-birth>2004</year-of-birth>
+        <age-group>U21</age-group>
+        <statistic>
+            <shooting-styles>Longbow (LB)</shooting-styles>
+            <shooting-accuracy>86%</shooting-accuracy>
+            <total-points>830</total-points>
+        </statistic>
+    </person>
+    <person id="p8">
+        <firstname>Paul</firstname>
+        <lastname>Ortner</lastname>
+        <gender>m</gender>
+        <year-of-birth>2004</year-of-birth>
+        <age-group>U21</age-group>
+        <statistic>
+            <shooting-styles>Historical Bow (HB)</shooting-styles>
+            <shooting-accuracy>77%</shooting-accuracy>
+            <total-points>750</total-points>
+        </statistic>
+    </person>
+    <person id="p9">
+        <firstname>Sven</firstname>
+        <lastname>Den Uijl</lastname>
+        <gender>m</gender>
+        <year-of-birth>2002</year-of-birth>
+        <age-group>U60</age-group>
+        <statistic>
+            <shooting-styles>Freestyle limited recurve and compound (FS)</shooting-styles>
+            <shooting-accuracy>91%</shooting-accuracy>
+            <total-points>930</total-points>
+        </statistic>
+    </person>
+    <person id="p10">
+        <firstname>Paul</firstname>
+        <lastname>Hagenbucher</lastname>
+        <gender>m</gender>
+        <year-of-birth>2004</year-of-birth>
+        <age-group>U21</age-group>
+        <statistic>
+            <shooting-styles>Freestyle limited recurve and compound (FS)</shooting-styles>
+            <shooting-accuracy>82%</shooting-accuracy>
+            <total-points>790</total-points>
+        </statistic>
+    </person>
+    <person id="p11">
+        <firstname>Christopher</firstname>
+        <lastname>Wolf</lastname>
+        <gender>m</gender>
+        <year-of-birth>2004</year-of-birth>
+        <age-group>U21</age-group>
+        <statistic>
+            <shooting-styles>Barebow recurve and compound (BB)</shooting-styles>
+            <shooting-accuracy>90%</shooting-accuracy>
+            <total-points>900</total-points>
+        </statistic>
+	</person>
+	<person id="p12">
+        <firstname>Thomas</firstname>
+        <lastname>Müller</lastname>
+        <gender>m</gender>
+        <year-of-birth>1989</year-of-birth>
+        <age-group>U60</age-group>
+        <statistic>
+            <shooting-styles>Traditional Recurve Bow (TR)</shooting-styles>
+            <shooting-accuracy>85%</shooting-accuracy>
+            <total-points>943</total-points>
+        </statistic>
+    </person>
+    <person id="p13">
+        <firstname>Harry</firstname>
+        <lastname>Kane</lastname>
+        <gender>m</gender>
+        <year-of-birth>1994</year-of-birth>
+        <age-group>U60</age-group>
+        <statistic>
+            <shooting-styles>Historical Bow (HB) </shooting-styles>
+            <shooting-accuracy>92</shooting-accuracy>
+            <total-points>950</total-points>
+        </statistic>
+    </person>
+    <person id="p14">
+        <firstname>Manuel</firstname>
+        <lastname>Neuer</lastname>
+        <gender>m</gender>
+        <year-of-birth>1986</year-of-birth>
+        <age-group>U60</age-group>
+        <statistic>
+            <shooting-styles>Bowhunter limited (BL)</shooting-styles>
+            <shooting-accuracy>70%</shooting-accuracy>
+            <total-points>680</total-points>
+        </statistic>
+    </person>
+    <person id="p15">
+        <firstname>Joshua</firstname>
+        <lastname>Kimmich</lastname>
+        <gender>m</gender>
+        <year-of-birth>1995</year-of-birth>
+        <age-group>U60</age-group>
+        <statistic>
+            <shooting-styles>Longbow (LB)</shooting-styles>
+            <shooting-accuracy>97%</shooting-accuracy>
+            <total-points>990</total-points>
+        </statistic>
+    </person>
+    <person id="p16">
+        <firstname>Tobias</firstname>
+        <lastname>Herburger</lastname>
+        <gender>m</gender>
+        <year-of-birth>2004</year-of-birth>
+        <age-group>U21</age-group>
+        <statistic>
+            <shooting-styles>Bowhunter unlimited (BU)</shooting-styles>
+            <shooting-accuracy>85%</shooting-accuracy>
+            <total-points>890</total-points>
+        </statistic>
+    </person>
+    <person id="p17">
+        <firstname>Paul</firstname>
+        <lastname>Herburger</lastname>
+        <gender>m</gender>
+        <year-of-birth>2006</year-of-birth>
+        <age-group>U21</age-group>
+        <statistic>
+            <shooting-styles>Bowhunter recurve und compound (BH)</shooting-styles>
+            <shooting-accuracy>90%</shooting-accuracy>
+            <total-points>912</total-points>
+        </statistic>
+    </person>
+    <person id="p18">
+        <firstname>Katharina</firstname>
+        <lastname>Herburger</lastname>
+        <gender>f</gender>
+        <year-of-birth>2000</year-of-birth>
+        <age-group>U60</age-group>
+        <statistic>
+            <shooting-styles>Freestyle unlimited (FU)</shooting-styles>
+            <shooting-accuracy>88%</shooting-accuracy>
+            <total-points>890</total-points>
+        </statistic>
+    </person>
+   	<person id="p19">
+        <firstname>Alex</firstname>
+        <lastname>Morgan</lastname>
+        <gender>f</gender>
+        <year-of-birth>1989</year-of-birth>
+        <age-group>U60</age-group>
+        <statistic>
+            <shooting-styles>Bowhunter unlimited (BU)</shooting-styles>
+            <shooting-accuracy>54%</shooting-accuracy>
+            <total-points>666</total-points>
+        </statistic>
+    </person>
+    <person id="p20">
+        <firstname>Lena</firstname>
+        <lastname>Oberdorf</lastname>
+        <gender>f</gender>
+        <year-of-birth>2001</year-of-birth>
+        <age-group>U60</age-group>
+        <statistic>
+            <shooting-styles>Longbow (LB) </shooting-styles>
+            <shooting-accuracy>79%</shooting-accuracy>
+            <total-points>777</total-points>
+        </statistic>
+    </person>
+    <person id="p21">
+        <firstname>Jule</firstname>
+        <lastname>Brand</lastname>
+        <gender>f</gender>
+        <year-of-birth>2002</year-of-birth>
+        <age-group>U60</age-group>
+        <statistic>
+            <shooting-styles>Barebow recurve and compound (BB)</shooting-styles>
+            <shooting-accuracy>44%</shooting-accuracy>
+            <total-points>354</total-points>
+        </statistic>
+    </person>
+    <person id="p22">
+        <firstname>Fridolina</firstname>
+        <lastname>Rolfö</lastname>
+        <gender>f</gender>
+        <year-of-birth>1993</year-of-birth>
+        <age-group>U60</age-group>
+        <statistic>
+            <shooting-styles>Bowhunter recurve and compound (BH)</shooting-styles>
+            <shooting-accuracy>88%</shooting-accuracy>
+            <total-points>999</total-points>
+        </statistic>
+    </person>
+    <person id="p23">
+        <firstname>Sakina</firstname>
+        <lastname>Karchaoui</lastname>
+        <gender>f</gender>
+        <year-of-birth>1996</year-of-birth>
+        <age-group>U60</age-group>
+        <statistic>
+        	<shooting-styles>Historical Bow (HB)</shooting-styles>
+            <shooting-accuracy>97%</shooting-accuracy>
+            <total-points>497</total-points>
+        </statistic>
+    </person>
+    
+    <tournament name="Vorarlberger Bogenmeisterschaften 2023 U60 Men">
+        <ranking rank="1" archer-id="a15" points="990"/>
+        <ranking rank="2" archer-id="a13" points="950"/>
+        <ranking rank="3" archer-id="a12" points="943"/>
+        <ranking rank="4" archer-id="a9" points="930"/>
+        <ranking rank="5" archer-id="a5" points="790"/>
+        <ranking rank="6" archer-id="a3" points="780"/>
+        <ranking rank="7" archer-id="a1" points="780"/>
+        <ranking rank="8" archer-id="a14" points="680"/>
+        <ranking rank="9" archer-id="a4" points="660"/>
+        <ranking rank="9" archer-id="a2" points="650"/>
+    </tournament>
+    
+    <tournament name="Vorarlberger Bogenmeisterschaften 2023 U60 Women">
+        <ranking rank="1" archer-id="a22" points="999"/>
+        <ranking rank="2" archer-id="a0" points="990"/>
+        <ranking rank="3" archer-id="a18" points="890"/>
+        <ranking rank="4" archer-id="a20" points="777"/>
+        <ranking rank="5" archer-id="a19" points="666"/>
+        <ranking rank="6" archer-id="a23" points="497"/>
+        <ranking rank="7" archer-id="a21" points="354"/>
+    </tournament>
+    
+    <tournament name="Vorarlberger Bogenmeisterschaften 2023 U21 Men">
+        <ranking rank="1" archer-id="a17" points="912"/>
+        <ranking rank="2" archer-id="a11" points="900"/>
+        <ranking rank="3" archer-id="a16" points="890"/>
+        <ranking rank="4" archer-id="a7" points="830"/>
+        <ranking rank="5" archer-id="a6" points="820"/>
+        <ranking rank="6" archer-id="a10" points="790"/>
+        <ranking rank="7" archer-id="a8" points="750"/>
+    </tournament>
+</bow-ranking>
+
