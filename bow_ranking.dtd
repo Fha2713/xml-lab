@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT bow-ranking (club, person, tournament)>
+<!ELEMENT bow-ranking (club*, person*, tournament*)>
+<!ATTLIST bow-ranking edition CDATA #REQUIRED>
 
-<!ELEMENT club (club-name, archer, trainer)>
+<!ELEMENT club (club-name, archer*, trainer)>
 <!ELEMENT club-name (#PCDATA)>
 <!ELEMENT archer (#PCDATA)>
+<!ATTLIST archer
+		id ID #REQUIRED
+		person-id IDREF #REQUIRED>
 <!ELEMENT trainer (#PCDATA)>
+<!ATTLIST trainer
+		id ID #REQUIRED
+		person-id IDREF #REQUIRED>
 
 
 <!ELEMENT person (firstname+, lastname+, gender+, year-of-birth, age-group, statistic)>
 <!ATTLIST person
-    id CDATA #REQUIRED>
+    id ID #REQUIRED>
 <!ELEMENT firstname (#PCDATA)>
 <!ELEMENT lastname (#PCDATA)>
 <!ELEMENT gender (#PCDATA)>
@@ -27,7 +34,7 @@
 <!ELEMENT total-points (#PCDATA)>
 
 
-<!ELEMENT tournament (ranking)>
+<!ELEMENT tournament (ranking*)>
 <!ATTLIST tournament
     name CDATA #REQUIRED>
 <!ELEMENT ranking EMPTY>

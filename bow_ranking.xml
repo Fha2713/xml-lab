@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE bow-ranking SYSTEM "bow_ranking.dtd">
+<?xml-stylesheet type="text/xsl" href="bow_ranking.xsl"?>
 <bow-ranking edition="2024-Q1">
 	<club>
 		<club-name>BSC Hohenems</club-name>
