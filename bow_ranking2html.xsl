@@ -17,9 +17,22 @@
 					</xsl:for-each>
 					
 					<xsl:for-each select = "tournament">
-						<li><xsl:value-of select = "@name"/></li>
+						<li><a href = "#{generate-id()}"><xsl:value-of select = "@name"/></a></li>
 					</xsl:for-each>
 				</ul>
+				
+				<h2>Index</h2>
+            	<ul>
+                	<xsl:for-each select="person">
+        			<xsl:sort select="lastname"/>
+       				 <li>
+            			<a href="#{@id}">
+               			 <xsl:value-of select="concat(lastname, ' ', firstname)"/>
+          			  </a>			
+        			</li>
+    				</xsl:for-each>
+				</ul>
+            	
 				
 				<h2>Vereine</h2>
 				<xsl:apply-templates select = "club"/>
@@ -51,11 +64,15 @@
 			
 			<xsl:apply-templates select="archer"/>
 			<xsl:apply-templates select="trainer"/>
+
 		</table>
 	</xsl:template>
 	
 	
 	<xsl:template match="archer | trainer">
+	
+	<h3 id = "{@person-id}"></h3>
+	
 		<xsl:variable name = "p" select = "id(@person-id)"/> 
 		<tr>
 			<td>
@@ -90,7 +107,7 @@
 	
 	
 	<xsl:template match="tournament">
-		<h2>
+		<h2 id = "{generate-id()}">
 			Turnier:
 			<xsl:value-of select="@name"/>
 		</h2>
@@ -98,18 +115,35 @@
 			<tr>
 				<th>Rang</th>
 				<th>ID</th>
+				<th>Vorname</th>
+				<th>Nachname</th>
+				<th>Schussstil</th>
+				<th>Genauigkeit</th>
 				<th>Punkte</th>
 			</tr>
 			<xsl:apply-templates select="ranking"/>
 		</table>
 	</xsl:template>
 	<xsl:template match="ranking">
+	<xsl:variable name = "a" select = "id(@person-id)"/> 
 		<tr>
 			<td>
 				<xsl:value-of select="@rank"/>
 			</td>
 			<td>
-				<xsl:value-of select="@archer-id"/>
+				<xsl:value-of select="@person-id"/>
+			</td>
+			<td>
+				<xsl:value-of select="$a/firstname"/>
+			</td>
+			<td>
+				<xsl:value-of select="$a/lastname"/>
+			</td>
+			<td>
+				<xsl:value-of select="$a/statistic/shooting-styles"/>
+			</td>
+			<td>
+				<xsl:value-of select="$a/statistic/shooting-accuracy"/>
 			</td>
 			<td>
 				<xsl:value-of select="@points"/>

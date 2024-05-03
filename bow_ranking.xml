@@ -4,43 +4,43 @@
 <bow-ranking edition="2024-Q1">
 	<club>
 		<club-name>BSC Hohenems</club-name>
-		<archer id="a0" person-id="p0"/>
-		<archer id="a1" person-id="p1"/>
-		<archer id="a2" person-id="p2"/>
-		<archer id="a3" person-id="p3"/>
-		<archer id="a4" person-id="p4"/>
-		<archer id="a5" person-id="p5"/>
-		<trainer id="t0" person-id="p6"/>
+		<archer person-id="p0"/>
+		<archer person-id="p1"/>
+		<archer person-id="p2"/>
+		<archer person-id="p3"/>
+		<archer person-id="p4"/>
+		<archer person-id="p5"/>
+		<trainer person-id="p6"/>
 	</club>
 	<club>
 		<club-name>BSC Lustenau</club-name>
-		<archer id="a6" person-id="p6"/>
-		<archer id="a7" person-id="p7"/>
-		<archer id="a8" person-id="p8"/>
-		<archer id="a9" person-id="p9"/>
-		<archer id="a10" person-id="p10"/>
-		<archer id="a11" person-id="p11"/>
-		<trainer id="t1" person-id="p1"/>
+		<archer  person-id="p6"/>
+		<archer person-id="p7"/>
+		<archer person-id="p8"/>
+		<archer person-id="p9"/>
+		<archer person-id="p10"/>
+		<archer person-id="p11"/>
+		<trainer person-id="p1"/>
 	</club>
 	<club>
 		<club-name>BSC Dornbirn</club-name>
-		<archer id="a12" person-id="p12"/>
-		<archer id="a13" person-id="p13"/>
-		<archer id="a14" person-id="p14"/>
-		<archer id="a15" person-id="p15"/>
-		<archer id="a16" person-id="p16"/>
-		<archer id="a17" person-id="p17"/>
-		<trainer id="t2" person-id="p18"/>
+		<archer person-id="p12"/>
+		<archer person-id="p13"/>
+		<archer person-id="p14"/>
+		<archer person-id="p15"/>
+		<archer person-id="p16"/>
+		<archer person-id="p17"/>
+		<trainer person-id="p18"/>
 	</club>
 	<club>
 		<club-name>BSC Götzis</club-name>
-		<archer id="a18" person-id="p18"/>
-		<archer id="a19" person-id="p19"/>
-		<archer id="a20" person-id="p20"/>
-		<archer id="a21" person-id="p21"/>
-		<archer id="a22" person-id="p22"/>
-		<archer id="a23" person-id="p23"/>
-		<trainer id="t3" person-id="p12"/>
+		<archer person-id="p18"/>
+		<archer person-id="p19"/>
+		<archer person-id="p20"/>
+		<archer person-id="p21"/>
+		<archer person-id="p22"/>
+		<archer person-id="p23"/>
+		<trainer person-id="p12"/>
 	</club>
 	
 	<person id="p0">
@@ -333,35 +333,35 @@
     </person>
     
     <tournament name="Vorarlberger Bogenmeisterschaften 2023 U60 Men">
-        <ranking rank="1" archer-id="a15" points="990"/>
-        <ranking rank="2" archer-id="a13" points="950"/>
-        <ranking rank="3" archer-id="a12" points="943"/>
-        <ranking rank="4" archer-id="a9" points="930"/>
-        <ranking rank="5" archer-id="a5" points="790"/>
-        <ranking rank="6" archer-id="a3" points="780"/>
-        <ranking rank="7" archer-id="a1" points="780"/>
-        <ranking rank="8" archer-id="a14" points="680"/>
-        <ranking rank="9" archer-id="a4" points="660"/>
-        <ranking rank="9" archer-id="a2" points="650"/>
+        <ranking rank="1" person-id="p15" points="990"/>
+        <ranking rank="2" person-id="p13" points="950"/>
+        <ranking rank="3" person-id="p12" points="943"/>
+        <ranking rank="4" person-id="p9" points="930"/>
+        <ranking rank="5" person-id="p5" points="790"/>
+        <ranking rank="6" person-id="p3" points="780"/>
+        <ranking rank="7" person-id="p1" points="780"/>
+        <ranking rank="8" person-id="p14" points="680"/>
+        <ranking rank="9" person-id="p4" points="660"/>
+        <ranking rank="9" person-id="p2" points="650"/>
     </tournament>
     
     <tournament name="Vorarlberger Bogenmeisterschaften 2023 U60 Women">
-        <ranking rank="1" archer-id="a22" points="999"/>
-        <ranking rank="2" archer-id="a0" points="990"/>
-        <ranking rank="3" archer-id="a18" points="890"/>
-        <ranking rank="4" archer-id="a20" points="777"/>
-        <ranking rank="5" archer-id="a19" points="666"/>
-        <ranking rank="6" archer-id="a23" points="497"/>
-        <ranking rank="7" archer-id="a21" points="354"/>
+        <ranking rank="1" person-id="p22" points="999"/>
+        <ranking rank="2" person-id="p0" points="990"/>
+        <ranking rank="3" person-id="p18" points="890"/>
+        <ranking rank="4" person-id="p20" points="777"/>
+        <ranking rank="5" person-id="p19" points="666"/>
+        <ranking rank="6" person-id="p23" points="497"/>
+        <ranking rank="7" person-id="p21" points="354"/>
     </tournament>
     
     <tournament name="Vorarlberger Bogenmeisterschaften 2023 U21 Men">
-        <ranking rank="1" archer-id="a17" points="912"/>
-        <ranking rank="2" archer-id="a11" points="900"/>
-        <ranking rank="3" archer-id="a16" points="890"/>
-        <ranking rank="4" archer-id="a7" points="830"/>
-        <ranking rank="5" archer-id="a6" points="820"/>
-        <ranking rank="6" archer-id="a10" points="790"/>
-        <ranking rank="7" archer-id="a8" points="750"/>
+        <ranking rank="1" person-id="p17" points="912"/>
+        <ranking rank="2" person-id="p11" points="900"/>
+        <ranking rank="3" person-id="p16" points="890"/>
+        <ranking rank="4" person-id="p7" points="830"/>
+        <ranking rank="5" person-id="p6" points="820"/>
+        <ranking rank="6" person-id="p10" points="790"/>
+        <ranking rank="7" person-id="p8" points="750"/>
     </tournament>
 </bow-ranking>

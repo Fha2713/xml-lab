@@ -7,11 +7,9 @@
 <!ELEMENT club-name (#PCDATA)>
 <!ELEMENT archer (#PCDATA)>
 <!ATTLIST archer
-		id ID #REQUIRED
 		person-id IDREF #REQUIRED>
 <!ELEMENT trainer (#PCDATA)>
 <!ATTLIST trainer
-		id ID #REQUIRED
 		person-id IDREF #REQUIRED>
 
 
@@ -40,6 +38,6 @@
 <!ELEMENT ranking EMPTY>
 <!ATTLIST ranking
     rank CDATA #REQUIRED
-    archer-id CDATA #REQUIRED
+    person-id IDREF #REQUIRED
     points CDATA #REQUIRED>
     
